@@ -6,7 +6,7 @@
 ### Overview
 This project involves data pre-processing tasks to prepare the data for machine learning model training. It includes loading, handling, cleaning, and transforming the data.
 
-### Detailed Steps
+
 1. **Data Pre-processing:**
    - Libraries: The code starts by importing necessary libraries such as pandas and csv for data handling and manipulation.
    - File Paths: It defines file paths for both malicious and benign datasets, along with an output CSV file path for storing preprocessed data.
@@ -25,7 +25,6 @@ This project involves data pre-processing tasks to prepare the data for machine 
 ### Overview
 This section focuses on encoding categorical variables to prepare them for machine learning model training.
 
-### Detailed Steps
 1. **Loading Data and Importing Libraries:**
    - The code imports necessary libraries such as pandas and LabelEncoder from sklearn.preprocessing.
 2. **Loading the CSV File:**
@@ -56,8 +55,8 @@ This section focuses on encoding categorical variables to prepare them for machi
 #### Overview
 This part covers training, evaluating, and caching a Random Forest Classifier for predicting classifications.
 
-#### Detailed Steps
-1. **Model Training and Evaluation with Random Forest Classifier:**
+
+- **Model Training and Evaluation with Random Forest Classifier:**
    - Model Loading: Checks for a cached model; if not found, proceeds with training a new model.
    - Data Loading: Loads training and testing data from CSV files.
    - Model Initialization: Initializes a Random Forest Classifier with specified parameters.
@@ -73,7 +72,6 @@ This part covers training, evaluating, and caching a Random Forest Classifier fo
 #### Overview
 This section covers training, evaluating, and caching a Gradient Boosting Classifier for classification tasks.
 
-#### Detailed Steps
 1. **Model Initialization and Training:**
    - Initializes a Gradient Boosting Classifier with specified parameters.
    - Trains the classifier using the training data.
@@ -89,7 +87,6 @@ This section covers training, evaluating, and caching a Gradient Boosting Classi
 #### Overview
 This part focuses on training and evaluating a Neural Network Classifier using TensorFlow and Keras.
 
-#### Detailed Steps
 1. **Data Loading and Preprocessing:**
    - Loads the CSV files into DataFrames and encodes the target variable.
 2. **Model Initialization and Training:**
